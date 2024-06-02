@@ -1,0 +1,28 @@
+.bgImage {
+	background-size: 0 0;
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+    padding: 25px 0;
+    background-size: cover;
+	background-position: 50%;
+	content: "";
+	width: calc(100vw + 80px);
+	height: calc(100vh + 80px);
+	position: fixed;
+	left: -1px;
+	top: -40px;
+	-webkit-filter: blur(13px);
+	-moz-filter: blur(13px);
+	-ms-filter: blur(13px);
+	-o-filter: blur(13px);
+	filter: blur(13px);
+    z-index: 99;
+
+}
+.linkContent {
+    position: relative;
+	z-index: 100;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

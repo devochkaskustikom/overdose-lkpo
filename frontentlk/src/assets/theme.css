@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Onest Bold;
+    src: url('./fonts/OnestBold1602-hint.ttf');
+}
+@font-face {
+    font-family: Onest Regular;
+    src: url('./fonts/OnestRegular1602-hint.ttf');
+}
+body {
+    background-color: #f9fafb!important;
+}
